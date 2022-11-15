@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  transition: background-color 200ms linear;
+  background-color: #4a4e69;
+}
+
+.card {
+  padding: 1rem;
+  max-width: 20rem;
+  border-radius: 0.5rem;
+  background-color: aliceblue;
+  transition: background-color 200ms linear;
+}
+
+.card::before {
+  content: '"';
+  position: absolute;
+  font-weight: 700;
+  font-size: 6rem;
+  color: #343a40;
+  transform: translateY(-58px);
+}
+.phrase {
+  line-height: 1.4rem;
+  font-weight: 500;
+}
+.author {
+  display: block;
+  min-width: 100%;
+  color: #847577;
+  text-align: end;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+#fetchQuote {
+  margin: auto;
+  font-family: inherit;
+  border-style: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  color: aliceblue;
+  background-color: #4a4e69;
+}
+
+#fetchQuote:hover {
+  opacity: 0.9;
+}
