@@ -21,4 +21,4 @@ Nel caso in cui dovesse verificarsi un errore nell'API request, la pagina deve t
 
 ## Link
 
-[Versione live del progetto]()
+[Versione live del progetto](https://paciott.github.io/Random-quote-generator/)
